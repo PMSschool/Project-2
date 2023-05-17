@@ -235,7 +235,7 @@ h1.head-section::after{
 /* start sec-2 */
 .sec-2 {
   background-color:var(--fourth-color);
-  padding: 60px;
+  padding: 60px 0;
 }
 .sec-2 .container{
   display:flex;
