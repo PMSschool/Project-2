@@ -360,11 +360,11 @@ h1.head-section::after{
   padding: 40px;
   color: var(--third-color);
 }
-.contact .left{
-
-}
-.contact .left h1{
-
+@media (max-width:767px){
+  .contact{
+    flex-direction:column;
+    gap:30px;
+  }
 }
 .contact .left .tel-num{
   display: flex;
@@ -401,6 +401,16 @@ h1.head-section::after{
   z-index: 0;
   top: 30px;
 }
-
-
 /* end contact */
+
+/* start footer */
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--third-color);
+  padding: 17px;
+  box-shadow: 0 0 13px 1px;
+  border: 1px solid;
+}
+/* end footer */
